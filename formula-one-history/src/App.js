@@ -1,14 +1,18 @@
 import './App.css';
 import Header from './Components/Header.js'
+import Navigation from './Components/Navigation.js'
 import Teams from './Components/Teams.js'
 
 function App() {
   return (
-    <div className="App bg-gray-900">
+    <div className="App font-raleway bg-white">
       <Header></Header>
-      <Teams></Teams>
+      <div className="flex">
+        <Navigation></Navigation>
+        <Teams></Teams>
+      </div>
     </div>
   );
-}
+};
 
 export default App;

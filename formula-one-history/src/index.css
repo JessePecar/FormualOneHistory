@@ -16,3 +16,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face{
+  font-family: 'Raleway';
+  src: local('Raleway-Regular'), url('./static/Raleway-Regular.ttf') format('truetype');
+
+}
+
+@font-face{
+  font-family: 'Raleway-Italic';
+  src: local('Raleway-Italic'), url('./static/Raleway-Italic.ttf') format('truetype');
+}
