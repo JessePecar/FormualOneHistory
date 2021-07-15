@@ -19,16 +19,21 @@ const Teams = () => {
       } 
       var grid = getTeams();
     return(
-        <div className="flex flex-wrap">
-        {grid.teams.map(function(team, index){
-          return (
-            <Car carName={team.teamName}
-              drivers={team.drivers}
-              carImage={team.carImage}
-              key={index}></Car>
-            )
-          })
-        }
+        <div className="flex flex-wrap m-12 ">
+          <div className="w-full">
+              <h1 className="mb-6 text-left font-bold text-gray-800"><span className="border-b border-gray-300 pb-2">Teams</span></h1>
+          </div>
+          <div className="w-full grid xl:grid-cols-2 lg:gid-cols-1">
+            {grid.teams.map(function(team, index){
+              return (
+                <Car carName={team.teamName}
+                  drivers={team.drivers}
+                  carImage={team.carImage}
+                  key={index}></Car>
+                )
+              })
+            }
+          </div>
         </div>
     )
 }

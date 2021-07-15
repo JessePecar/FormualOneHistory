@@ -4,13 +4,13 @@ import Drivers from './Drivers.js'
 
 const Car = ({carName, drivers, carImage}) => {
     return(
-        <div className="p-6 cursor-default lg:w-1/2 md:w-full">
-            <div className="rounded-lg bg-red-700 hover:bg-red-800 pb-4">
+        <div className="py-6 cursor-default w-full">
+            <div className="rounded-lg shadow-2xl bg-red-700 hover:bg-red-800 pb-4 mx-4">
                 <div className="flex px-16 py-8">
-                    <CarImage className="w-1/4" carImage={carImage}></CarImage>
-                    <div className="flex w-3/4 items-center justify-center">
+                    <CarImage className="w-1/4 lg:hidden md:visible xl:visible sm:hidden" carImage={carImage}></CarImage>
+                    <div className="flex w-3/4 pl-4 items-center justify-center">
                         <div>
-                            <p className="font-semibold border-b border-white border-opacity-50 mb-6">{carName}</p>
+                            <p className="font-semibold border-b border-white border-opacity-50 mb-6"><span className="">{carName}</span></p>
                             <Drivers drivers={drivers}></Drivers>
                         </div>
                     </div>

@@ -27,3 +27,12 @@ code {
   font-family: 'Raleway-Italic';
   src: local('Raleway-Italic'), url('./static/Raleway-Italic.ttf') format('truetype');
 }
+
+.active{
+  background-color:  rgba(229, 231, 235) !important;
+  color: rgba(153, 27, 27) !important; 
+}
+.active:hover {
+  background-color: rgba(127, 29, 29) !important;
+  color: #FFFFFF !important; 
+}
