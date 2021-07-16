@@ -1,5 +1,6 @@
 import React from 'react';
 import Title from '../Universal/Title.js'
+
 class DriverGrid extends React.Component{
     constructor(){
         super();
@@ -7,7 +8,7 @@ class DriverGrid extends React.Component{
 
     render(){
         return(
-            <Title pageTitle="Drivers">
+            <Title pageTitle="Drivers" searchBarText="Search for driver or number...">
             
             </Title>
         );

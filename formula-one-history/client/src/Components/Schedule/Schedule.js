@@ -1,4 +1,5 @@
 import React from 'react'
+import Title from '../Universal/Title.js'
 
 class Schedule extends React.Component{
     constructor(){
@@ -6,7 +7,9 @@ class Schedule extends React.Component{
     }
     render(){
         return(
-            <div></div>
+            <Title pageTitle="Schedule" searchBarText="Search for scheduled race...">
+
+            </Title>
         );
     }
 }

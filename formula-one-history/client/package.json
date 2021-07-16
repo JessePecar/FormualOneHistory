@@ -14,12 +14,9 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "engines":{
-    "node": "12.2.0"
-  },
   "scripts": {
-    "start": "node server/index.js && cd client && npm start",
-    "build": "cd client && npm install && npm run build",
+    "start": "craco start",
+    "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
@@ -29,6 +26,7 @@
       "react-app/jest"
     ]
   },
+  "proxy": "http://localhost:3001/",
   "browserslist": {
     "production": [
       ">0.2%",

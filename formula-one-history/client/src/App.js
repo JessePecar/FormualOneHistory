@@ -4,6 +4,7 @@ import Teams from './Components/Teams/Teams.js'
 import DriverGrid from './Components/DriverGrid/DriverGrid.js'
 import Results from './Components/Results/Results.js'
 import Schedule from './Components/Schedule/Schedule.js'
+import Home from './Components/Home/Home.js'
 
 import {
   Route,
@@ -15,9 +16,9 @@ function App() {
     <HashRouter>
       <div className="App font-raleway bg-red-50">
         <div className="flex">
-          <Navigation className="sm:invisible"></Navigation>
-          <Route exact path="/" component={Teams}></Route>
-          <Route path="/Home" component={Teams}></Route>
+          <Navigation className=""></Navigation>
+          <Route exact path="/" component={Home}></Route>
+          <Route path="/Teams" component={Teams}></Route>
           <Route path="/Drivers" component={DriverGrid}></Route>
           <Route path="/Schedule" component={Schedule}></Route>
           <Route path="/Results" component={Results}></Route>
