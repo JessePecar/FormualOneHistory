@@ -1,9 +1,15 @@
+import React from 'react';
 
+class DriverGrid extends React.Component{
+    constructor(){
+        super();
+    }
 
-const DriverGrid = () => {
-    return(
-        <div></div>
-    );
+    render(){
+        return(
+            <div></div>
+        );
+    }
 }
 
 export default DriverGrid;

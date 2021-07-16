@@ -5,7 +5,7 @@ import Drivers from './Drivers.js'
 const Car = ({carName, drivers, carImage}) => {
     return(
         <div className="py-6 cursor-default w-full">
-            <div className="rounded-lg shadow-2xl bg-red-700 hover:bg-red-800 pb-4 mx-4">
+            <div className="rounded-lg shadow-2xl bg-red-600 hover:bg-red-900 pb-4 mx-4">
                 <div className="flex px-16 py-8">
                     <CarImage className="w-1/4 lg:hidden md:visible xl:visible sm:hidden" carImage={carImage}></CarImage>
                     <div className="flex w-3/4 pl-4 items-center justify-center">

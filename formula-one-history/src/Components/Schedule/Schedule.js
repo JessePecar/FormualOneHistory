@@ -1,11 +1,14 @@
+import React from 'react'
 
-
-const Schedule = () => {
-    return (
-        <div>
-        
-        </div>
-    );
+class Schedule extends React.Component{
+    constructor(){
+        super();
+    }
+    render(){
+        return(
+            <div></div>
+        );
+    }
 }
 
 export default Schedule;

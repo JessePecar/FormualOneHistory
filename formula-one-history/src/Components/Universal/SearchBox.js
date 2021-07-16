@@ -2,13 +2,13 @@
 
 const SearchBox = ({placeholder}) => {
     return(
-        <div className="relative text-black shadow bg-white rounded-md">
+        <div className="relative text-black bg-transparent rounded-md">
             <span className="absolute inset-y-0 left-0 flex items-center pl-2">
                 <button type="submit" className="p-1 pt-2 focus:outline-none focus:shadow-outline">
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" className="w-6 h-6"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                 </button>
             </span>
-            <input className="rounded-md px-2 h-full pl-10 py-1 text-lg w-72 focus:outline-none"  type="search" placeholder={placeholder}/>
+            <input className="bg-white focus:bg-red-50 rounded-md px-2 h-full pl-10 py-1 text-lg w-72 focus:outline-none"  type="search" placeholder={placeholder}/>
         </div>
     );
 }

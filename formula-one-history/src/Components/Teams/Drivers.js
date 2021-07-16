@@ -6,7 +6,7 @@ const Drivers = ({drivers}) => {
             <div className="bg-opacity-25 rounded">
                 <ul className="px-6">
                     {drivers.map(function(driver, index){
-                        return <li className=" text-white font-raleway-italic hover:text-opacity-75 " key={index}><p className="text-xl">{driver}</p></li>
+                        return <li className=" text-red-50 font-raleway-italic hover:text-opacity-75 " key={index}><p className="text-xl">{driver}</p></li>
                     })}
                 </ul>
             </div>

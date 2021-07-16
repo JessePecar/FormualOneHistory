@@ -1,6 +1,6 @@
 import './App.css';
 import Navigation from './Components/Navigation.js'
-import Teams from './Components/Teams.js'
+import Teams from './Components/Teams/Teams.js'
 import DriverGrid from './Components/DriverGrid/DriverGrid.js'
 import Results from './Components/Results/Results.js'
 import Schedule from './Components/Schedule/Schedule.js'
@@ -13,7 +13,7 @@ import {
 function App() {
   return (
     <HashRouter>
-      <div className="App font-raleway bg-gray-200">
+      <div className="App font-raleway bg-red-50">
         <div className="flex">
           <Navigation className="sm:invisible"></Navigation>
           <Route exact path="/" component={Teams}></Route>

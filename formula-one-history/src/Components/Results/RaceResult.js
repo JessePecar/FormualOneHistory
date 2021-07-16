@@ -4,7 +4,7 @@ const RaceResult = ({races}) => {
     return(
         <ul className="text-sm text-black font-bold mt-8 divide-y divide-gray-300 rounded-t-md border border-t-0 border-gray-300 ">
             <li className="">
-                <div className="grid grid-flow-col grid-cols-3 text-gray-100 bg-red-700 rounded-t-md">
+                <div className="grid grid-flow-col grid-cols-3 text-red-50 bg-red-600 rounded-t-md shadow-md">
                     <p className="w-full text-left my-2 px-2">Race</p>
                     <p className="w-full text-left my-2 px-2">Winner</p>
                     <div>
