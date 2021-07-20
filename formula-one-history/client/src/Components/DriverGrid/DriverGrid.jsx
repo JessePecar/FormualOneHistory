@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from '../Universal/Title.js'
+import Title from '../Universal/Title.jsx'
 
 class DriverGrid extends React.Component{
     constructor(){

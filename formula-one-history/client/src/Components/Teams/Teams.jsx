@@ -1,7 +1,7 @@
-import Car from './Car.js';
+import Car from './Car.jsx';
 import React from 'react';
-import Title from '../Universal/Title.js';
-import Loading from '../Universal/Loading.js';
+import Title from '../Universal/Title.jsx';
+import Loading from '../Universal/Loading.jsx';
 
 function Teams() {
   const [data, setData] = React.useState(null)

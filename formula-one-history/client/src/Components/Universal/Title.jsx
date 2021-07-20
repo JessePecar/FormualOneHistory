@@ -1,4 +1,4 @@
-import Card from './Card.js'
+import Card from './Card.jsx'
 
 const Title = ({children, pageTitle, searchBarText}) => {
     return (

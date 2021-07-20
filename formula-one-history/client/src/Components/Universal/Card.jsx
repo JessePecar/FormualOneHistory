@@ -1,4 +1,4 @@
-import SearchBox from './SearchBox.js'
+import SearchBox from './SearchBox.jsx'
 
 const Card = ({children, placeholder}) => {
     return(

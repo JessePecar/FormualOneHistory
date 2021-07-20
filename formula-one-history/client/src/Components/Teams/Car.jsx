@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
-import CarImage from './CarImage.js'
-import Drivers from './Drivers.js'
+import CarImage from './CarImage.jsx'
+import Drivers from './Drivers.jsx'
 
 const Car = ({carName, drivers, carImage}) => {
     return(

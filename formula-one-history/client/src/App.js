@@ -1,10 +1,10 @@
 import './App.css';
-import Navigation from './Components/Navigation.js'
-import Teams from './Components/Teams/Teams.js'
-import DriverGrid from './Components/DriverGrid/DriverGrid.js'
-import Results from './Components/Results/Results.js'
-import Schedule from './Components/Schedule/Schedule.js'
-import Home from './Components/Home/Home.js'
+import Navigation from './Components/Navigation.jsx'
+import Teams from './Components/Teams/Teams.jsx'
+import DriverGrid from './Components/DriverGrid/DriverGrid.jsx'
+import Results from './Components/Results/Results.jsx'
+import Schedule from './Components/Schedule/Schedule.jsx'
+import Home from './Components/Home/Home.jsx'
 
 import {
   Route,

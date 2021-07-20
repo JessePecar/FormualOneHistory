@@ -1,8 +1,8 @@
 
-import Title from '../Universal/Title.js'
-import RaceResult from './RaceResult.js'
+import Title from '../Universal/Title.jsx'
+import RaceResult from './RaceResult.jsx'
 import React from 'react'
-import Loading from '../Universal/Loading.js';
+import Loading from '../Universal/Loading.jsx';
 
 function Results(){
     const [data, setData] = React.useState(null)
